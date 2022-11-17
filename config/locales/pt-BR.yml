@@ -1,0 +1,6 @@
+pt-BR:
+  language: Idioma
+  languages:
+    portuguese: Português
+    english: Inglês
+  locale: Português do Brasil
