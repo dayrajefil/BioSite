@@ -1,4 +1,8 @@
 <h1>
   <%= image_tag "https://cdn-icons-png.flaticon.com/512/1818/1818389.png", size: "50x50" %>
   <%= 'Home' %>
+  <%= t('language') %>
+  <%= t('locale') %>
 </h1>
+<p><%= link_to t('languages.portuguese'), root_path(locale: 'pt-BR') %></p>
+<p><%= link_to t('languages.english'), root_path(locale: 'en') %></p>
