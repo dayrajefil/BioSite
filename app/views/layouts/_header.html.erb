@@ -1,8 +1,17 @@
-<h1>
-  <%= image_tag "https://cdn-icons-png.flaticon.com/512/1818/1818389.png", size: "50x50" %>
-  <%= 'Home' %>
-  <%= t('language') %>
-  <%= t('locale') %>
-</h1>
-<p><%= link_to t('languages.portuguese'), root_path(locale: 'pt-BR') %></p>
-<p><%= link_to t('languages.english'), root_path(locale: 'en') %></p>
+  <div class="d-flex justify-content-between">
+    <div class="p-2">
+        <h1>
+      <%= image_tag "https://cdn-icons-png.flaticon.com/512/1818/1818389.png", size: "50x50" %>
+      <%= t('layout.portfolio') %>
+    </h1>
+    </div>
+    <div class="p-2">
+      <div class="col-md-1" data-bs-toggle="collapse" href="#collapseExample">
+        &emsp;<%= t('layout.language') %>
+      </div>
+      <div class="collapse" id="collapseExample">
+        <%= link_to t('language.portuguese'), root_path(locale: 'pt-BR'), class: "dropdown-item" %>
+        <%= link_to t('language.english'), root_path(locale: 'en'), class: "dropdown-item" %>
+      </div>
+      </div>
+  </div>
