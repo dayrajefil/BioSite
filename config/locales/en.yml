@@ -30,8 +30,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  language: Language
-  languages:
+  layout:
+    portfolio: Portfolio
+    home: Home
+    resume: Resume
+    language: Language
+
+  language:
     portuguese: Portuguese
     english: English
   locale: English

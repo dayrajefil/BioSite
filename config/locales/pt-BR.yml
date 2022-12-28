@@ -1,6 +1,11 @@
 pt-BR:
-  language: Idioma
-  languages:
+  layout:
+    portfolio: Portfólio
+    home: Início
+    resume: Curriculo
+    language: Idioma
+
+  language:
     portuguese: Português
     english: Inglês
   locale: Português do Brasil
